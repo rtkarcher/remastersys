@@ -9,12 +9,12 @@ Remastersys
 * Your entire operating system and all user data, including all files; a comprehensive backup of your entire system (which can also be burned to a Live CD/USB of sufficient size).
 
 
-# Why can't I access the official project website?
+## Why can't I access the project website?
 
 * April 2013 - Supporters announce end of further development for the Remastersys project; development forked to new supporters in advent of a new project, the [Black Lab Image Creator](http://system-imaging.blogspot.com/).
 * June 2015 - Original [Remastersys domain](http://www.remastersys.com/) has expired; now owned by Chinese online retailer, "Rema-Stersys."
  
-# How to Install
+## How to Install
 
 ### 1. Add the Repository to Your Sources
 
@@ -33,9 +33,6 @@ The key can be found on the [repository's Launchpad page](https://launchpad.net/
 	
 	Fingerprint:
 	E03F7C2D7E25575C3AA24E3EEDF18CFBEFDF73BF
-
-
-	$ sudo add-apt-repository ppa:quizas/remastersys
 	
 
 ### For Ubuntu 14.04 (Trusty):
