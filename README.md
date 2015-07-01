@@ -1,12 +1,19 @@
 Remastersys
 ===========
 
-Remastersys Tool for Backup Your Ubuntu System
+(This repository is basically a complete clone of [Mutse Young's forked Remastersys PPA/repo](https://github.com/mutse/remastersys), and is being maintained exclusively for the sake of redundancy.)
 
-* Fork from [http://www.remastersys.com](http://www.remastersys.com/)
-* Basically a total clone of [Mutse Young's](https://github.com/mutse/remastersys) repository
+[Remastersys](https://en.wikipedia.org/wiki/Remastersys) is a free and open source program for Debian-based or -derivative Linux distributions (including Ubuntu and Linux Mint) that can create custom Live CD/USB images of the following:
+
+* Your operating system files/specific configurations; a total remaster that can be used in creating a custom Live CD/USB of your system setup.
+* Your entire operating system and all user data, including all files; a comprehensive backup of your entire system (which can also be burned to a Live CD/USB of sufficient size).
 
 
+## Why can't I access www.remastersys.com?
+
+* April 2013 - Supporters announce end of further development for the Remastersys project; development forked to new supporters in advent of a new project, the [Black Lab Image Creator](http://system-imaging.blogspot.com/).
+* June 2015 - Original [Remastersys domain](http://www.remastersys.com/) has expired; now owned by Chinese online retailer, "Rema-Stersys."
+ 
 ## How to install
 
 Add the repository to your software sources:
