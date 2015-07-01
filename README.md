@@ -9,41 +9,59 @@ Remastersys
 * Your entire operating system and all user data, including all files; a comprehensive backup of your entire system (which can also be burned to a Live CD/USB of sufficient size).
 
 
-## Why can't I access the official project website?
+# Why can't I access the official project website?
 
 * April 2013 - Supporters announce end of further development for the Remastersys project; development forked to new supporters in advent of a new project, the [Black Lab Image Creator](http://system-imaging.blogspot.com/).
 * June 2015 - Original [Remastersys domain](http://www.remastersys.com/) has expired; now owned by Chinese online retailer, "Rema-Stersys."
  
-## How to install
+# How to Install
 
-Add the repository to your software sources:
+### 1. Add the Repository to Your Sources
+
+ Add the [repository](https://launchpad.net/~quizas/+archive/ubuntu/remastersys) to your software sources list:
 
 	$ sudo add-apt-repository ppa:quizas/remastersys
 
-If the above command doesn't work, however, you can manually import the key and add the 
+If the above command doesn't work, however, you can manually import the key and add the repository with this:
 
 	$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EFDF73BF
-	$ sudo add-apt-repository ppa:quizas/remastersys
-	$ sudo su
-
-### For Ubuntu 14.04 (Trusty):
-
-	# echo 'deb http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
-	# echo 'deb-src http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
 	
-### For Ubuntu 12.04 (Precise):
-	
-	$ sudo apt-get update
-	$ sudo apt-get install remastersys remastersys-gtk
-
-   
-The key can be found on the [Launchpad page](https://launchpad.net/~quizas/+archive/ubuntu/remastersys) under the section titled *'Technical details about this PPA'*:
+The key can be found on the [repository's Launchpad page](https://launchpad.net/~quizas/+archive/ubuntu/remastersys) under the section titled *'Technical details about this PPA'*:
 
 	Signing key:
 	4096R/EFDF73BF
 	
 	Fingerprint:
 	E03F7C2D7E25575C3AA24E3EEDF18CFBEFDF73BF
+
+
+	$ sudo add-apt-repository ppa:quizas/remastersys
+	
+
+### For Ubuntu 14.04 (Trusty):
+
+To manually add the repository to your /etc/apt/sources.list:
+
+	$ sudo su
+	# echo 'deb http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
+	# echo 'deb-src http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
+	
+### For Ubuntu 12.04 (Precise):
+
+To manually add the repository to your /etc/apt/sources.list:
+
+	$ sudo su
+	# echo 'deb http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
+	# echo 'deb-src http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
+
+### 2. Update apt-get & Install
+
+Once the repository has been added, update apt-get and install:
+	
+	$ sudo apt-get update
+	$ sudo apt-get install remastersys remastersys-gtk
+
+   
 
 
 ## Application Preview
