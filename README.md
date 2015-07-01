@@ -35,7 +35,7 @@ The key can be found on the [repository's Launchpad page](https://launchpad.net/
 	E03F7C2D7E25575C3AA24E3EEDF18CFBEFDF73BF
 	
 
-### For Ubuntu 14.04 (Trusty):
+#### For Ubuntu 14.04 (Trusty):
 
 To manually add the repository to your /etc/apt/sources.list:
 
@@ -43,7 +43,7 @@ To manually add the repository to your /etc/apt/sources.list:
 	# echo 'deb http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
 	# echo 'deb-src http://ppa.launchpad.net/quizas/remastersys/ubuntu trusty main' >> /etc/apt/sources.list
 	
-### For Ubuntu 12.04 (Precise):
+#### For Ubuntu 12.04 (Precise):
 
 To manually add the repository to your /etc/apt/sources.list:
 
