@@ -3,7 +3,7 @@ Remastersys
 
 (This repository is basically a complete clone of [Mutse Young's forked Remastersys PPA/repo](https://github.com/mutse/remastersys), and is being maintained exclusively for the sake of redundancy.)
 
-[Remastersys](https://en.wikipedia.org/wiki/Remastersys) is a free and open source program for [Debian](https://www.debian.org/)-based or -derivative Linux distributions (including [Ubuntu](http://www.ubuntu.com/) and [Linux Mint](http://linuxmint.com/)) that can create custom Live CD/USB images of the following:
+[Remastersys](http://ubuntuguide.org/wiki/Remastersys) is a free and open source program for [Debian](https://www.debian.org/)-based or -derivative Linux distributions (including [Ubuntu](http://www.ubuntu.com/) and [Linux Mint](http://linuxmint.com/)) that can create custom Live CD/USB images of the following:
 
 * Your operating system files/specific configurations; a total remaster that can be used in creating a custom Live CD/USB of your system setup.
 * Your entire operating system and all user data, including all files; a comprehensive backup of your entire system (which can also be burned to a Live CD/USB of sufficient size).
@@ -58,7 +58,14 @@ Once the repository has been added, update apt-get and install:
 	$ sudo apt-get update
 	$ sudo apt-get install remastersys remastersys-gtk
 
-   
+
+## How to Use
+
+* Using Remastersys via command line is mercifully easy, but the GUI can also be found here:
+	* Menu -> System Adminstration -> **Remastersys Backup**
+* Command line instructions:
+	* [How to create a custom distribution .ISO from your operating system setup](http://ubuntuguide.org/wiki/Remastersys#Create_a_custom_distribution)
+	* [How to create a full system backup .ISO](http://ubuntuguide.org/wiki/Remastersys#Create_a_system_backup)
 
 
 ## Application Preview
